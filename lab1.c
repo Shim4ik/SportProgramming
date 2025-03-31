@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int a = 5, b = 2;
-    float result = (float)a / b;
+    const float PI = 3.14;
 
-    printf("Result: %.2f\n", result);
+    printf("PI: %.2f\n", PI);
     return 0;
 }
